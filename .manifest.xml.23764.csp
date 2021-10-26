@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" installOnlyAtStartup="false" uuid="pepper_coe-e12a57">
+ <names>
+  <name lang="en_US">Untitled</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Pepper COE Intro</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">Tell me about the College of Engineering</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Sure thing</sentence>
+    <sentence lang="en_US">I'd love to tell you about the College of Engineering</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
