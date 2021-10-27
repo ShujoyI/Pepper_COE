@@ -82,8 +82,88 @@ class MyClass(GeneratedClass):
               <Parameter name="Animation" inherits_from_parent="0" content_type="3" value="Stand/Gestures/Hey_2" default_value="" custom_choice="0" tooltip="The animation to play" id="9" />
               <Resource name="Speech" type="Lock" timeout="0" />
             </Box>
+            <Box name="Set Speech Lang." id="1" localization="8" tooltip="Select the language you would like the robot to speak. Any following call to&#x0A;ALTextToSpeech (Say box for instance) will use this language." plugin="setlanguage_plugin" x="162" y="305">
+              <bitmap>media/images/box/interaction/say.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[# /!\ Generated content. Do not edit!
+# -*- coding: utf-8 -*-
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.setTTS = True
+        self.setASR = False
+        self.setDialog = False
+        self.language = "English"
+
+    def getService(self, serviceName, humainName):
+        service = None
+        try:
+            service = self.session().service(serviceName)
+        except:
+            self.logger.warn("%s is not available, language setting cannot be applied to %s." % (serviceName, humainName))
+        return service
+
+    def onLoad(self):
+        if self.setTTS:
+            self.tts = self.getService("ALTextToSpeech", "speech")
+        if self.setASR:
+            self.asr = self.getService("ALSpeechRecognition", "recognition")
+        if self.setDialog:
+            self.dialog = self.getService("ALDialog", "dialog")
+
+    def setLanguage(self, service, serviceName):
+        try:
+            if service is None:
+                return False
+            service.setLanguage(self.language)
+            return True
+        except Exception as e:
+            self.logger.error("Could not set language %s for %s: %s" % (self.language, serviceName, e))
+            return False
+
+    def onInput_onSet(self):
+        res = True
+        if self.setTTS:
+            res = self.setLanguage(self.tts, "ALTextToSpeech") and res
+        if self.setASR:
+            res = self.setLanguage(self.asr, "ALSpeechRecognition") and res
+        if self.setDialog:
+            res = self.setLanguage(self.dialog, "ALDialog") and res
+
+        if res:
+            self.onReady()
+        else:
+            self.logger.error("Language %s could not be set for one or more services." % self.language)
+            self.onError()]]>
+                </content>
+              </script>
+              <pluginContent>
+                <language>English</language>
+                <asr use="0" />
+                <dialog use="0" />
+              </pluginContent>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+              <Input name="onSet" type="1" type_size="1" nature="1" inner="0" tooltip="The data is set when a signal is received on this input." id="2" />
+              <Output name="onReady" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the data has been set." id="3" />
+              <Resource name="Speech" type="Lock" timeout="0" />
+            </Box>
+            <Box name="COE Test" id="3" localization="8" tooltip="Testing dialog" x="505" y="440">
+              <dialogFile>../CollegeOfEngineering/CollegeOfEngineering.dlg</dialogFile>
+              <bitmap>media/images/box/box-dialog.png</bitmap>
+              <script language="4">
+                <content>
+                  <![CDATA[]]>
+                </content>
+              </script>
+              <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+              <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
+              <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
+              <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
+            </Box>
             <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
-            <Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" />
+            <Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" />
+            <Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="3" />
           </Diagram>
         </BehaviorKeyframe>
       </BehaviorLayer>

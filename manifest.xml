@@ -23,9 +23,11 @@
     <sentence lang="en_US">Sure thing</sentence>
     <sentence lang="en_US">I'd love to tell you about the College of Engineering</sentence>
    </loadingResponses>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
+  <dialogContent topicName="CollegeOfEngineering" typeVersion="1.0">
+   <topic language="en_US" path="CollegeOfEngineering/CollegeOfEngineering_enu.top"/>
+  </dialogContent>
  </contents>
  <requirements>
   <robotRequirement model="JULIETTE"/>
