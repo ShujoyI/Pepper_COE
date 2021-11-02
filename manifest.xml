@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" installOnlyAtStartup="false" uuid="pepper_coe-e12a57">
+<package installOnlyAtStartup="false" version="0.0.0" uuid="pepper_coe-e12a57">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -25,8 +25,11 @@
    </loadingResponses>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="CollegeOfEngineering" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="CollegeOfEngineering">
    <topic language="en_US" path="CollegeOfEngineering/CollegeOfEngineering_enu.top"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="COEMajorOverview">
+   <topic language="en_US" path="COEMajorOverview/COEMajorOverview_enu.top"/>
   </dialogContent>
  </contents>
  <requirements>

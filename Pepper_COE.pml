@@ -7,11 +7,13 @@
     <Dialogs>
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="CollegeOfEngineering" src="CollegeOfEngineering/CollegeOfEngineering.dlg" />
+        <Dialog name="COEMajorOverview" src="COEMajorOverview/COEMajorOverview.dlg" />
     </Dialogs>
     <Resources />
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" nuance="enu" />
         <Topic name="CollegeOfEngineering_enu" src="CollegeOfEngineering/CollegeOfEngineering_enu.top" topicName="CollegeOfEngineering" language="en_US" nuance="enu" />
+        <Topic name="COEMajorOverview_enu" src="COEMajorOverview/COEMajorOverview_enu.top" topicName="COEMajorOverview" language="en_US" nuance="enu" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

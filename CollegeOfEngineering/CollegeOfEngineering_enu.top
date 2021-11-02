@@ -10,7 +10,10 @@ language: enu
 # Replying to speech
 #u:(~hello) ~hello
 
-u:(Tell me about the College of Engineering) The College of Engineering at CSULB 
+concept: (College_of_Engineering)["College of Engineering" COE]
+
+u:(Tell me about the _~College_of_Engineering) The CSULB College of Engineering's mission is to develop innovators who design and implement practical solutions to meet the societal challenges of today and tomorrow. There are 11 different programs within the College of Engineering.
+
 
 u:(Good morning) Let's start a wonderful day
 
