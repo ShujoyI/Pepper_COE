@@ -1,0 +1,20 @@
+topic: ~CollegeOfComputerScience()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+concept: (College_Of_Computer_Science)["Computer Science" CS]
+
+u:(Tell me about the _~College_Of_Computer_Science) The CSULB College of Computer Science programs deliver the solid theoretical foundation and practical basics to prepare you for a successful career in computing, whether you’re interested in computing careers in healthcare, entertainment, aerospace, automotive, supply management, engineering, data analytics, or many other fields and industries.
+
+
+#u:(Good morning) Let's start a wonderful day
+
+

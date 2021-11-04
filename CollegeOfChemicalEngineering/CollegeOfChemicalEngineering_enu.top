@@ -1,0 +1,20 @@
+topic: ~CollegeOfChemicalEngineering()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+concept: (College_Of_Chemical_Engineering)["Chemical Engineering" ChE]
+
+u:(Tell me about the _~College_Of_Chemical_Engineering) From cosmetics to plastics, potato chips to microelectronic chips, and energy to environment, chemical engineers work on processes that responsibly convert raw materials into useful products. The Chemical Engineering Department offers practice-oriented programs to develop well-trained professionals who will be successful in their careers and prepared for advanced studies.
+
+
+#u:(Good morning) Let's start a wonderful day
+
+
