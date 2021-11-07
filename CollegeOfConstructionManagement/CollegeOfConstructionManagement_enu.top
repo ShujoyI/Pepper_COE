@@ -1,0 +1,15 @@
+topic: ~CollegeOfConstructionManagement()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+concept: (Construction_Management)["Construction" "Construction Management" CM]
+
+u:(Tell me about ~Construction_Management) The mission of the CSULB Construction Management program is to educate and prepare students to succeed in the construction management profession by providing them with essential technical, managerial and communication skills and tools which will enable them to perform current and future construction management tasks and to promote the need for life-long learning.
