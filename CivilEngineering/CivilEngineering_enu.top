@@ -1,0 +1,19 @@
+topic: ~CivilEngineering()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+concept:(Civil_Engineering)["Civil Engineering" "Civil Eng"]
+
+u:(Tell me about _~Civil_Engineering) Civil Engineering at CSULB TEST
+
+
+#testing if this file works at all
+u:(test work) Test works
