@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="Pepper_COE" format_version="4">
+<Package name="Pepper_COE" format_version="5">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
@@ -35,6 +35,8 @@
         <Topic name="CollegeOfBiomedicalEngineering_enu" src="CollegeOfBiomedicalEngineering/CollegeOfBiomedicalEngineering_enu.top" topicName="CollegeOfBiomedicalEngineering" language="en_US" />
         <Topic name="CollegeOfAerospaceEngineering_enu" src="CollegeOfAerospaceEngineering/CollegeOfAerospaceEngineering_enu.top" topicName="CollegeOfAerospaceEngineering" language="en_US" />
         <Topic name="CollegeOfConstructionManagement_enu" src="CollegeOfConstructionManagement/CollegeOfConstructionManagement_enu.top" topicName="CollegeOfConstructionManagement" language="en_US" />
+        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="CollegeOfComputerEngineering" language="en_US" />
+        <Topic name="CollegeOfElectricalEngineering_enu" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering_enu.top" topicName="CollegeOfElectricalEngineering" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
