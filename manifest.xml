@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="pepper_coe-e12a57" version="0.0.0" installOnlyAtStartup="false">
+<package uuid="pepper_coe-e12a57" version="0.0.0">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
@@ -25,20 +25,20 @@
    </loadingResponses>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="CollegeOfEngineering">
-   <topic language="en_US" path="CollegeOfEngineering/CollegeOfEngineering_enu.top"/>
+  <dialogContent topicName="CollegeOfEngineering" typeVersion="1.0">
+   <topic path="CollegeOfEngineering/CollegeOfEngineering_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="COEMajorOverview">
-   <topic language="en_US" path="COEMajorOverview/COEMajorOverview_enu.top"/>
+  <dialogContent topicName="COEMajorOverview" typeVersion="1.0">
+   <topic path="COEMajorOverview/COEMajorOverview_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="CivilEngineering">
-   <topic language="en_US" path="CivilEngineering/CivilEngineering_enu.top"/>
+  <dialogContent topicName="CivilEngineering" typeVersion="1.0">
+   <topic path="CivilEngineering/CivilEngineering_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="MechanicalEngineering">
-   <topic language="en_US" path="MechanicalEngineering/MechanicalEngineering_enu.top"/>
+  <dialogContent topicName="MechanicalEngineering" typeVersion="1.0">
+   <topic path="MechanicalEngineering/MechanicalEngineering_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ComputerEngineeringTechnology">
-   <topic language="en_US" path="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top"/>
+  <dialogContent topicName="ComputerEngineeringTechnology" typeVersion="1.0">
+   <topic path="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top" language="en_US"/>
   </dialogContent>
  </contents>
  <requirements>
