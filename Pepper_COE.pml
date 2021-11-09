@@ -14,6 +14,8 @@
         <Dialog name="CivilEngineering" src="CivilEngineering/CivilEngineering.dlg" />
         <Dialog name="MechanicalEngineering" src="MechanicalEngineering/MechanicalEngineering.dlg" />
         <Dialog name="ComputerEngineeringTechnology" src="ComputerEngineeringTechnology/ComputerEngineeringTechnology.dlg" />
+        <Dialog name="CollegeOfElectricalEngineering" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering.dlg" />
+        <Dialog name="CollegeOfComputerEngineering" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering.dlg" />
     </Dialogs>
     <Resources />
     <Topics>
@@ -26,6 +28,8 @@
         <Topic name="CivilEngineering_enu" src="CivilEngineering/CivilEngineering_enu.top" topicName="CivilEngineering" language="en_US" nuance="enu" />
         <Topic name="MechanicalEngineering_enu" src="MechanicalEngineering/MechanicalEngineering_enu.top" topicName="MechanicalEngineering" language="en_US" nuance="enu" />
         <Topic name="ComputerEngineeringTechnology_enu" src="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top" topicName="ComputerEngineeringTechnology" language="en_US" nuance="enu" />
+        <Topic name="CollegeOfElectricalEngineering_enu" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering_enu.top" topicName="CollegeOfElectricalEngineering" language="en_US" nuance="enu" />
+        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="CollegeOfComputerEngineering" language="en_US" nuance="enu" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

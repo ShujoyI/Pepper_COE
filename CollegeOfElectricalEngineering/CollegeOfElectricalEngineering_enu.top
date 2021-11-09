@@ -1,0 +1,15 @@
+topic: ~CollegeOfElectricalEngineering()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+concept: (College_Of_Electrical_Engineering)["Electrical Engineering" ET]
+
+u:(Tell me about the _~College_Of_Electrical_Engineering) The CSULB college of Electrical Engineering programs prepare you to shape future technology, whether in communications, controls, digital signal processing, electronics, or power systems. Read more about the programs below.
