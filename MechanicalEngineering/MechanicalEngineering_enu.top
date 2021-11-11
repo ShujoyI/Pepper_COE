@@ -13,5 +13,5 @@ language: enu
 
 concept: (Mechanical_Engineering)["Mechanical Engineering" ME]
 
-u:(Tell me about _~Mechanical_Engineering) Mechancal Engineering at CSULB   provides grounding in fundamentals such as math, physics, chemistry, and design. Labs have modern equipment for undergraduate instruction. Senior-year electives provide opportunities to further explore areas of interest, such as:
-CAD/CAM, Design, Energy conversion, Fluid mechanics ,Mechanics and materials, Metallurgy, Thermodynamics.
+u:(Tell me about _~Mechanical_Engineering) Mechancal Engineering at CSULB   provides grounding in fundamentals such as math, physics, chemistry, and design. Labs have modern equipment for undergraduate instruction. 
+u:(What are some classes within _~Mechanical_Engineering?) You may take classes that focus on CAD, Dynamics, Fluids, Thermodynamics, and Energy.
