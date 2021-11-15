@@ -16,6 +16,6 @@ concept:(COE_Majors)["COE Majors" "Majors in COE" "Majors in the College of Engi
 u:(What are the _~COE_Majors) The 11 majors are
 Aerospace Engineering, Biomedical Engineering, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Construction Engineering Mangagement, Electrical Engineering, Electronics Engineering Technology, Computer Engnineering Technology, and Mechanical Engineering.
 
+#:(e:Dialog/Fallback)
 
-#testing if this file works at all
-u:(test work) Test works
+u:(e:Dialog/NotUnderstood) sorry, I didn't understand.

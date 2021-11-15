@@ -3,5 +3,12 @@
  <descriptionLanguages>
   <language>en_US</language>
  </descriptionLanguages>
- <contents/>
+ <contents>
+  <dialogContent typeVersion="1.0" topicName="MechanicalEngineering">
+   <topic path="MechanicalEngineering/MechanicalEngineering_enu.top" language="en_US"/>
+  </dialogContent>
+  <dialogContent typeVersion="1.0" topicName="ComputerEngineeringTechnology">
+   <topic path="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top" language="en_US"/>
+  </dialogContent>
+ </contents>
 </package>
