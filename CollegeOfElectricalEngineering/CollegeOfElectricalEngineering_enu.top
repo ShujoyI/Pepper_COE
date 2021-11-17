@@ -10,6 +10,6 @@ language: enu
 # Replying to speech
 #u:(~hello) ~hello
 
-concept: (College_Of_Electrical_Engineering)["Electrical Engineering" ET]
+concept: (College_Of_Electrical_Engineering)["Electrical Engineering" EE]
 
-u:(Tell me about the _~College_Of_Electrical_Engineering) The CSULB college of Electrical Engineering programs prepare you to shape future technology, whether in communications, controls, digital signal processing, electronics, or power systems. Read more about the programs below.
+u:(Tell me about _~Electrical_Engineering) The CSULB college of Electrical Engineering programs prepare you to shape future technology, whether in communications, controls, digital signal processing, electronics, or power systems. Read more about the programs below.
