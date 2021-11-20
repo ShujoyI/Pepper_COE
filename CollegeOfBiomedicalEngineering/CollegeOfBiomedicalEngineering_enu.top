@@ -12,4 +12,9 @@ language: enu
 
 concept: (Biomedical_Engineering)["Biomed" "Biomedical Engineering" BE]
 
-u:(Tell me about ~Biomedical_Engineering) The CSULB Biomedical Engineering program will teach students to apply their engineering, biology, bioinformatics, and biomechanical knowledge to create artificial organs, prostheses, medical instruments, and healthcare management and delivery systems.
+u:(Tell me about _~Biomedical_Engineering) The CSULB Biomedical Engineering program will teach students to apply their engineering, biology, bioinformatics, and biomechanical knowledge to create artificial organs, prostheses, medical instruments, and healthcare management and delivery systems.
+
+u:(What are some classes within _~Biomedical_Engineering) You may take classes that focus on science, physics, chemistry, and biology with advanced courses such as organic chemistry and physiology.
+
+u:(What are some jobs you can get with a _~Biomedical_Engineering degree)
+You could get a job l ike Biomaterials Developer, Manufacturing Engineer, Biomedical Scientist/Researcher, Medical Technology Developer, or Doctor.
