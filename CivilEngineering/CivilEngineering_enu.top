@@ -1,18 +1,9 @@
 topic: ~CivilEngineering()
 language: enu
 
-# Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
-
-# Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
-
-# Replying to speech
-#u:(~hello) ~hello
-
 concept:(Civil_Engineering)["Civil Engineering" "Civil Eng"]
 
-u:(Tell me about _~Civil_Engineering) Civil Engineering at CSULB is built around a core of mathematics and natural and engineering sciences, the program teaches students the essential tools and problem-solving ability to work in industry or prepare for civil engineering graduate studies. Students receive theoretical and practical experience in planning, analysis, design, and construction of various types of private projects and public works. Graduates emerge fully prepared to work at engineering consulting firms, the construction industry, and government agencies.
+u:(Tell me about _~Civil_Engineering) Civil Engineering at CSULB is built around a core of mathematics and natural and engineering sciences, the program teaches students the essential tools and problem-solving ability to work in industry or prepare for civil engineering graduate studies. Students receive theoretical and practical experience in planning, analysis, design, and construction of various types of private projects and public works.
 
 u:(What are some classes within _~Civil_Engineering) You may take classes that focus on Surverying, Transportation Safety, Transportation, Hydrauliucs, and Concrete Design.
 
