@@ -1,20 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <package version="0.0.0">
- <supportedLanguages>
-  <language>en_US</language>
- </supportedLanguages>
- <descriptionLanguages>
-  <language>en_US</language>
- </descriptionLanguages>
- <contents>
-  <dialogContent topicName="MechanicalEngineering" typeVersion="1.0">
-   <topic language="en_US" path="MechanicalEngineering/MechanicalEngineering_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="ComputerEngineeringTechnology" typeVersion="1.0">
-   <topic language="en_US" path="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top"/>
-  </dialogContent>
-  <dialogContent topicName="FallbackDialogue" typeVersion="1.0">
-   <topic language="en_US" path="FallbackDialogue/FallbackDialogue_enu.top"/>
-  </dialogContent>
- </contents>
+ <contents/>
 </package>

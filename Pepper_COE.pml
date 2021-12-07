@@ -22,6 +22,8 @@
         <File name="" src=".gitattributes" />
         <File name="" src=".gitignore" />
         <File name="README" src="README.md" />
+        <File name=".CivilEngineering_enu.top.10040" src="CivilEngineering/.CivilEngineering_enu.top.10040.csp" />
+        <File name=".CollegeOfElectricalEngineering_enu.top.10040" src="CollegeOfElectricalEngineering/.CollegeOfElectricalEngineering_enu.top.10040.csp" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
