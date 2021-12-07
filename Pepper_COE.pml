@@ -22,8 +22,6 @@
         <File name="" src=".gitattributes" />
         <File name="" src=".gitignore" />
         <File name="README" src="README.md" />
-        <File name="csulbpassport" src="Images/csulbpassport.PNG" />
-        <File name="testImage" src="Images/testImage.PNG" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />

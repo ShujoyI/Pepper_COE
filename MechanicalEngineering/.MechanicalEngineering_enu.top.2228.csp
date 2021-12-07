@@ -1,0 +1,14 @@
+topic: ~MechanicalEngineering()
+language: enu
+
+concept: (Mechanical_Engineering)["Mechanical Engineering" ME]
+
+u:(Tell me about _~Mechanical_Engineering) Mechanical Engineering at CSULB provides grounding in fundamentals such as math, physics, chemistry, and design. Labs have modern equipment for undergraduate instruction. 
+
+u:(What are some classes within _~Mechanical_Engineering) You may take classes that focus on CAD, Dynamics, Fluids, Thermodynamics, and Energy.
+
+u:(What are some jobs you can get with a _~Mechanical_Engineering degree)
+You could get a job as a Mechanical Engineer
+
+u:(What are clubs for _~Mechanical_Engineering)
+There is the American Society of Mechanical Engineers and Long Beach Maker Society
