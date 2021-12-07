@@ -7,13 +7,13 @@
   <language>en_US</language>
  </descriptionLanguages>
  <contents>
-  <dialogContent topicName="MechanicalEngineering" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="MechanicalEngineering">
    <topic path="MechanicalEngineering/MechanicalEngineering_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="ComputerEngineeringTechnology" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="ComputerEngineeringTechnology">
    <topic path="ComputerEngineeringTechnology/ComputerEngineeringTechnology_enu.top" language="en_US"/>
   </dialogContent>
-  <dialogContent topicName="FallbackDialogue" typeVersion="1.0">
+  <dialogContent typeVersion="1.0" topicName="FallbackDialogue">
    <topic path="FallbackDialogue/FallbackDialogue_enu.top" language="en_US"/>
   </dialogContent>
  </contents>

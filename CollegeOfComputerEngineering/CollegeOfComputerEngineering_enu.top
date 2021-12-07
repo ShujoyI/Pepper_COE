@@ -9,6 +9,14 @@ language: enu
 
 # Replying to speech
 #u:(~hello) ~hello
-concept: (College_Of_Computer_Engineering)["Computer Engineering" CE]
 
-u:(Tell me about _~Computer_Engineering) The CSULB college of Computer Engineering programs deliver the solid theoretical foundation and practical basics to prepare you for a successful career in computing, whether you’re interested in computing careers in healthcare, entertainment, aerospace, automotive, supply management, engineering, data analytics, or many other fields and industries.
+concept: (Computer_Engineering)["Computer Engineering" CE]
+
+u:(Tell me about _~Computer_Engineering) The CSULB college of Computer Engineering programs deliver the solid theoretical foundation and practical basics to prepare you for a successful career in computing.
+
+u:(What are some classes within _~Computer_Engineering) You may take classes that focus on 
+
+u:(What are some jobs you can get with a _~Computer_Engineering degree)
+You could get a job as a 
+
+u:(What are clubs for _~Computer_Engineering)
