@@ -6,5 +6,9 @@
  <descriptionLanguages>
   <language>en_US</language>
  </descriptionLanguages>
- <contents/>
+ <contents>
+  <dialogContent typeVersion="1.0" topicName="CollegeOfComputerEngineering">
+   <topic language="en_US" path="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top"/>
+  </dialogContent>
+ </contents>
 </package>

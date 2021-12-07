@@ -17,12 +17,14 @@
         <Dialog name="CollegeOfBiomedicalEngineering" src="CollegeOfBiomedicalEngineering/CollegeOfBiomedicalEngineering.dlg" />
         <Dialog name="CollegeOfAerospaceEngineering" src="CollegeOfAerospaceEngineering/CollegeOfAerospaceEngineering.dlg" />
         <Dialog name="FallbackDialogue" src="FallbackDialogue/FallbackDialogue.dlg" />
+        <Dialog name="CollegeOfComputerEngineering" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering.dlg" />
     </Dialogs>
     <Resources>
         <File name="" src=".gitattributes" />
         <File name="" src=".gitignore" />
         <File name="README" src="README.md" />
         <File name="sae" src="html/sae.png" />
+        <File name="r2lb" src="html/r2lb.mp4" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
@@ -39,6 +41,7 @@
         <Topic name="CollegeOfConstructionManagement_enu" src="CollegeOfConstructionManagement/CollegeOfConstructionManagement_enu.top" topicName="CollegeOfConstructionManagement" language="en_US" />
         <Topic name="CollegeOfElectricalEngineering_enu" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering_enu.top" topicName="" language="" />
         <Topic name="FallbackDialogue_enu" src="FallbackDialogue/FallbackDialogue_enu.top" topicName="FallbackDialogue" language="en_US" />
+        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="CollegeOfComputerEngineering" language="en_US" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
