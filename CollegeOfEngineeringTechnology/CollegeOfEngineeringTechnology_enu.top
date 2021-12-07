@@ -1,15 +1,6 @@
 topic: ~CollegeOfEngineeringTechnology()
 language: enu
 
-# Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
-
-# Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
-
-# Replying to speech
-#u:(~hello) ~hello
-
 concept: (College_Of_Engineering_Technology)["Engineering Technology" ET]
 
 u:(Tell me about the _~College_Of_Engineering_Technology) The Electronics Engineering Technology program, prepares the student for a position as a technologist, in such industries as aerospace, computers, communications, biomedical, chemical, power, etc. Students are offered a wide range of training in topics such as instrumentation, controls, microprocessors, microelectronics, biomedical electronics, communications, motors and generators, robotics, computer applications, programming and interfacing. Moreover the program emphasizes written and oral communications skills as well as modern methods of industrial administration and supervision.

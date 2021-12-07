@@ -1,15 +1,6 @@
 topic: ~ComputerEngineeringTechnology()
 language: enu
 
-# Defining extra concepts out of words or group of words
-#concept:(hello) [hello hi hey "good morning" greetings]
-
-# Catching inputs and triggering outputs
-#u:(e:onStart) $onStopped=1
-
-# Replying to speech
-#u:(~hello) ~hello
-
 concept: (Computer_Engineering_Technology)["Computer Engineering Technology" CET]
 
 u:(Tell me about _~Computer_Engineering_Technology) The Computer Engineering Technology program at CSULB focused on manufacturing of computers and the applications and operations aspects of computer hardware and software.
