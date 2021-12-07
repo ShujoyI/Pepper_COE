@@ -1,4 +1,4 @@
 topic: ~FallbackDialogue()
 language: enu
 
-u:(e:Dialog/NotUnderstood) Sorry, I didn't understand.
+#u:(e:Dialog/NotUnderstood) Sorry, I didn't understand.

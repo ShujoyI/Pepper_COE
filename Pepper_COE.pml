@@ -22,8 +22,7 @@
         <File name="" src=".gitattributes" />
         <File name="" src=".gitignore" />
         <File name="README" src="README.md" />
-        <File name=".CivilEngineering_enu.top.18860" src="CivilEngineering/.CivilEngineering_enu.top.18860.csp" />
-        <File name=".CollegeOfElectricalEngineering_enu.top.18860" src="CollegeOfElectricalEngineering/.CollegeOfElectricalEngineering_enu.top.18860.csp" />
+        <File name="sae" src="html/sae.png" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
@@ -38,7 +37,6 @@
         <Topic name="CollegeOfBiomedicalEngineering_enu" src="CollegeOfBiomedicalEngineering/CollegeOfBiomedicalEngineering_enu.top" topicName="CollegeOfBiomedicalEngineering" language="en_US" />
         <Topic name="CollegeOfAerospaceEngineering_enu" src="CollegeOfAerospaceEngineering/CollegeOfAerospaceEngineering_enu.top" topicName="CollegeOfAerospaceEngineering" language="en_US" />
         <Topic name="CollegeOfConstructionManagement_enu" src="CollegeOfConstructionManagement/CollegeOfConstructionManagement_enu.top" topicName="CollegeOfConstructionManagement" language="en_US" />
-        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="" language="" />
         <Topic name="CollegeOfElectricalEngineering_enu" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering_enu.top" topicName="" language="" />
         <Topic name="FallbackDialogue_enu" src="FallbackDialogue/FallbackDialogue_enu.top" topicName="FallbackDialogue" language="en_US" />
     </Topics>
