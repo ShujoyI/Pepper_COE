@@ -1,7 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <package version="0.0.0">
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
  </descriptionLanguages>
- <contents/>
+ <contents>
+  <dialogContent typeVersion="1.0" topicName="CollegeOfComputerEngineering">
+   <topic language="en_US" path="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top"/>
+  </dialogContent>
+ </contents>
 </package>
