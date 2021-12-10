@@ -41,7 +41,7 @@
         <Topic name="CollegeOfConstructionManagement_enu" src="CollegeOfConstructionManagement/CollegeOfConstructionManagement_enu.top" topicName="CollegeOfConstructionManagement" language="en_US" />
         <Topic name="CollegeOfElectricalEngineering_enu" src="CollegeOfElectricalEngineering/CollegeOfElectricalEngineering_enu.top" topicName="" language="" />
         <Topic name="FallbackDialogue_enu" src="FallbackDialogue/FallbackDialogue_enu.top" topicName="FallbackDialogue" language="en_US" />
-        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="CollegeOfComputerEngineering" language="en_US" />
+        <Topic name="CollegeOfComputerEngineering_enu" src="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" topicName="" language="" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
