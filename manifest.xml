@@ -8,7 +8,7 @@
  </descriptionLanguages>
  <contents>
   <dialogContent typeVersion="1.0" topicName="CollegeOfComputerEngineering">
-   <topic language="en_US" path="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top"/>
+   <topic path="CollegeOfComputerEngineering/CollegeOfComputerEngineering_enu.top" language="en_US"/>
   </dialogContent>
  </contents>
 </package>
